@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+#gameboard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 720px;
+}
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+}
+.white{
+    background-color: rgb(234, 215, 183);
+}
+.black{
+    background-color: rgb(164, 109, 109);
+}
